@@ -20,11 +20,11 @@ class Car {
 class SportsCar extends Car {
 	constructor(make, model, topSpeed) {
 		super(make, model);
-		this._topSpeed = topSpeed;  // Use _topSpeed for consistency
+		this.topSpeed = topSpeed;  // Use _topSpeed for consistency
 	}
 
 	getTopSpeed() {
-		return this._topSpeed;
+		return this.topSpeed;
 	}
 }
 
